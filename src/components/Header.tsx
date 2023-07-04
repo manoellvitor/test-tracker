@@ -45,7 +45,11 @@ export default function Header() {
             className="tooltip tooltip-left tooltip-accent "
             data-tip="info"
             onClick={() => {
-              return window.info_modal.showModal();
+              if (document) {
+                (
+                  document.getElementById("info_modal") as HTMLFormElement
+                ).showModal();
+              }
             }}
           >
             <Info
