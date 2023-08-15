@@ -66,7 +66,7 @@ export default function Header() {
                 Hello there!
               </h3>
               <p className="py-4">
-                Test Track is a test management tool developed by{" "}
+                Test Tracker is a test management tool developed by{" "}
                 <Link
                   className="text-cyan-400 hover:text-cyan-600 transition-colors"
                   href={"https://manoellopes.dev"}
